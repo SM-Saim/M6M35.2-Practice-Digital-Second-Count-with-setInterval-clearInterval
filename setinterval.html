@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interval</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <section class="text-center mt-48">
+      <div id="part-1">
+        <p id="zero" class="text-7xl font-medium text-cyan-900 m-4">0</p>
+      </div>
+      <div id="part-2">
+        <button id="start-btn" onclick="startButton()" class="btn btn-accent">
+          Start
+        </button>
+        <button onclick="stopButton()" class="btn btn-accent">Stop</button>
+        <button onclick="resetButton()" class="btn btn-accent">Reset</button>
+      </div>
+    </section>
+    <script src="setInterval.js"></script>
+  </body>
+</html>
